@@ -1,0 +1,130 @@
+ 
+   
+  
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #02218E;
+    color: #333;
+    font-family: "Faustina", serif;
+}
+    header {
+        background-color: #E08938;
+        color: white;
+        text-align: center;
+        height: 100px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: left;
+        background-color: #02218E;
+        color: white;
+        text-align: center;
+        height: 45px;
+      
+    }
+
+    nav a {
+       
+      
+      
+        color: white;
+        margin: 0 4em;
+        margin-top: 10px;
+   
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    .highlight {
+        color: #fcbf1e;
+    }
+
+    footer {
+        background-color: #E08938;
+        color: black;
+        text-align: center;
+        padding: 1em 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .logo-zardo{
+
+top: 100px;
+display: flex;
+justify-content: left;
+
+    }
+
+  .main-content{
+    display: flex;
+    justify-content: left;
+    background-image: url(imagem/imagem-inicio.png);
+    background-repeat: no-repeat;
+    background-size: 2000px 700px;
+    height: 100vh;
+    width: 2000px;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    
+   }
+   h1{
+    font-family: "Faustina", serif;
+    margin-top: 150px;
+   }
+   
+   
+   .barraPesquisa{
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+
+    
+   }
+
+   .login{
+display: flex;
+justify-content: right;
+margin-top: -70px;
+height: 50px;
+gap: 10px;
+   }
+
+.pesquisa{
+    margin-top: 70px;
+    height: 24px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+}
+
+
+.text-inicio{
+font-size: 30px;
+color: wheat;
+text-align: justify;
+display: flex;
+justify-content: column;
+gap: 100px;
+}
+
+
+.zardoinicio-imagem{
+    display: flex;
+    justify-content: right;    
+    height: 300px;
+    width: 300px;
+    
+}
